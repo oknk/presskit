@@ -88,8 +88,6 @@ layout: default
         {% endfor %}
         </ul>
       </div>
-    </div>
-  </div>
 
   <div class='box'>
     <h2 id='trailers'>Videos</h2>
@@ -197,7 +195,7 @@ layout: default
     {% endfor %}
   </div>
   {% endif %}
-
+<!--
   <div class='box'>
     <h2 id='about'>About {{company.title}}</h2>
 
@@ -206,12 +204,12 @@ layout: default
 
     <h3>More information</h3>
     <p>More information on {{company.title}}, our logo &amp; relevant media are available <a href='{{base_url}}'>here</a></p>
-  </div>
+  </div> -->
 
   <div class='container'>
     <div class='box'>
 
-      <h2 id='credits'>{{project.title}} Credits</h2>
+      <h2 id='credits'>Credits</h2>
 
       <dl>
       {% for credit in project.credits %}
@@ -224,7 +222,7 @@ layout: default
       {% endfor %}
       </dl>
 
-      <h2 id='credits'>Collaborators, Special Thanks</h2>
+      <h2 id='credits'>Collaborators</h2>
 
       <dl>
       {% for credit in project.collaborators %}
@@ -241,6 +239,9 @@ layout: default
 
     <div class='box'>
       {% include contacts.html %}
+    </div>
+  </div>
+
     </div>
   </div>
 

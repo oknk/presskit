@@ -1,10 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700|Open+Sans:400,300,700|Roboto+Slab:300|Roboto:300);
-/*@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');*/
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700|Open+Sans:400,300,700);
 
 @media (max-width: 767px) {}
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.9em;
   line-height:1.6em;
   margin: 0;
@@ -31,7 +30,7 @@ body {
 }
 
 h2, h3 {
-  font-family: "Roboto";/*, Helvetica, Arial, sans-serif;*/
+  font-family: 'Quattrocento', serif;
   margin-top: 1.4em;
 }
 
@@ -65,8 +64,11 @@ dd {
   display: inline-block;
   margin-bottom: 15px;
   padding: 10px;
+  background: #ebf7fd;
+  color: #2d7091;
   border: 1px solid rgba(45,112,145,.3);
   border-radius: 4px;
+  text-shadow: 0 1px 0 #fff;
 }
 
 blockquote {

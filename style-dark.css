@@ -1,0 +1,25 @@
+body {
+  background: #101010;
+  color: #666;
+}
+
+a {
+  color: #ddd;
+}
+a:active {
+  outline: none
+}
+a:hover  {
+  color: #27f !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#999;
+}
+
+.notice {
+  background: #555;
+  color: #ddf;
+  text-decoration:none;
+  border: 1px solid #555;
+}

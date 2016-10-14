@@ -2,7 +2,7 @@ title: "Okaynokay"
 founded: "September 3, 2015"
 website: "okaynokay.xyz"
 city: "SF Bay Area, CA"
-press: "press@okaynokay.xyz"
+press: "info@okaynokay.xyz"
 address:
   - "Okaynokay, LLC"
   - "1940 Union St., #32"
@@ -12,13 +12,13 @@ social:
   twitter: "oknkstudio"
   instagram: "oknkstudio"
 
-description: "Okaynokay (OKNK) is a creative studio founded in 2015 in the San Francisco Bay Area, California, USA."
+description: "Okaynokay (OKNK) is a creative studio founded 2015 in the San Francisco Bay Area, California, USA."
 
 history:
   - header: "Early history"
-    text: "Started circa 2008."
+    text: "In the beginning."
   - header: "After that"
-    text: "Still making stuff."
+    text: "It goes on."
 
 # trailers:
 #   - name: "This video is nice"
@@ -58,7 +58,7 @@ history:
 "press-can-request-copy": TRUE
 "monetization-permission": monetize
 
-team:
+people:
   - person: "Gabriel Dunne"
     role: "Person"
     website: "www.gabrieldunne.com"
@@ -66,12 +66,12 @@ team:
     website: "www.onecm.com"
     role: "Person"
 
-contacts:
-  - name: Inquiries
-    address: "info@okaynokay.xyz"
-  - name: Twitter
-    address: "http://twitter.com/oknkstudio"
-  - name: Instagram
-    address: "http://instagram.com/oknkstudio"
-  - name: Web
-    address: "okaynokay.xyz"
+# contacts:
+#   - name: Inquiries
+#     address: "info@okaynokay.xyz"
+#   - name: Twitter
+#     address: "http://twitter.com/oknkstudio"
+#   - name: Instagram
+#     address: "http://instagram.com/oknkstudio"
+#   - name: Web
+#     address: "okaynokay.xyz"
