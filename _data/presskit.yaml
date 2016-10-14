@@ -1,35 +1,33 @@
-title: "Company Name"
-founded: "September 1, 2010"
-website: "website.com"
-city: "Cityville, Metropolisland"
-press: "press-contact@company.com"
-phone: "+00 (1) 22 33 44 55 66"
-address: 
-  - "Address Line 1"
-  - "Address Line 2"
-  - "Address Line 3"
+title: "Okaynokay"
+founded: "September 3, 2015"
+website: "okaynokay.xyz"
+city: "SF Bay Area, CA"
+press: "press@okaynokay.xyz"
+address:
+  - "Okaynokay, LLC"
+  - "1940 Union St., #32"
+  - "Oakland, CA 94607"
 
-social: 
-  twitter: "MyTwitter"
-  facebook: "MyCompanyName"
-  skype: "callto:MySkypeName"
+social:
+  twitter: "oknkstudio"
+  instagram: "oknkstudio"
 
-description: "We're a games studio and we make games. We're also capable of editing YAML files."
+description: "Okaynokay (OKNK) is a creative studio founded in 2015 in the San Francisco Bay Area, California, USA."
 
-history: 
+history:
   - header: "Early history"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel nisi dolor. Pellentesque vitae eros velit, quis venenatis orci. Phasellus elit urna, semper ut gravida et, porta non dui. Aliquam erat volutpat. Aenean porta volutpat imperdiet. Maecenas venenatis, tellus eget vehicula vulputate, augue erat elementum quam, tincidunt laoreet magna orci et mauris. Proin porttitor pharetra nisi, accumsan sollicitudin neque varius a. Aenean ut massa ipsum, id hendrerit lacus. Maecenas posuere egestas nunc at cursus. Etiam mollis libero vel eros pulvinar aliquam. Sed vitae turpis sed nibh venenatis dictum. Sed suscipit orci justo, at sagittis ante. Sed leo nisl, ultricies in fermentum id, aliquam id dolor. Ut laoreet, felis id posuere bibendum, arcu ipsum lacinia est, eu lobortis velit enim eget mi. In ullamcorper ullamcorper enim ut gravida. Vivamus rutrum lacus mollis risus malesuada iaculis."
+    text: "We started small, making projects we thought were cool."
   - header: "After that"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem dui, volutpat eu adipiscing sed, rutrum aliquam lacus. Proin sollicitudin consequat dolor id dignissim. Aliquam sem turpis, sagittis lobortis viverra eget, varius vitae nunc. Proin ac lacus porttitor dui sollicitudin elementum. Nulla ut hendrerit est. Fusce vitae arcu erat, vel molestie est. Proin et placerat justo. Proin placerat arcu massa, eu blandit leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eu lorem sed massa lobortis hendrerit vitae vel odio. Maecenas eget pulvinar tortor. Nunc vitae nisl ac odio bibendum luctus ac a leo. Suspendisse auctor elit et velit sagittis vehicula. Maecenas faucibus blandit rutrum. Duis et sem nibh. Vestibulum placerat elit et dui rhoncus accumsan."
+    text: "We kept making projects we thought were cool."
 
-trailers: 
+trailers:
   - name: "This video is nice"
     youtube: "7jQbITg0MSk"
   - name: "This one too"
     youtube: "0CevOaYrYDA"
     vimeo: "12536488"
 
-awards: 
+awards:
   - description: "Winner in this highly relevant contest."
     info: "Award Location, 20 October, 1989"
   - description: "Nomination for this prestigious award."
@@ -39,7 +37,7 @@ awards:
   - description: "Nomination for this prestigious award."
     info: "Award Ceremony, 4 December, 1991"
 
-quotes: 
+quotes:
   - description: "This is a rather insignificant quote by a highly important person."
     name: "Person Name"
     website: Website
@@ -60,27 +58,20 @@ quotes:
 "press-can-request-copy": TRUE
 "monetization-permission": monetize
 
-additionals: 
-  - title: "Company Link #1"
-    description: "This link is a link that might be useful. You can check it out at"
-    link: "http://somemusicsite.com/thislink"
+credits:
+  - person: "Gabriel Dunne"
+    role: "Co-Founder"
+    website: "www.gabrieldunne.com"
+  - person: "Ryan Alexander"
+    website: "www.onecm.com"
+    role: "Co-Founder"
 
-credits: 
-  - person: "John Doe"
-    role: "Artist, Freelancer"
-  - person: "Oliver Twist"
-    website: "www.olivertwist.com"
-    role: "Artist, Freelancer"
-  - person: "Jane Doette"
-    website: "www.olivertwist.com"
-    role: "Music, Freelancer"
-
-contacts: 
+contacts:
   - name: Inquiries
-    address: "rami@vlambeer.com"
+    address: "info@okaynokay.xyz"
   - name: Twitter
-    address: "http://twitter.com/MyCompanyName"
-  - name: Facebook
-    address: "http://facebook.com/MyCompanyName"
+    address: "http://twitter.com/oknkstudio"
+  - name: Instagram
+    address: "http://instagram.com/oknkstudio"
   - name: Web
-    address: "MyCompanyWebsite.com"
+    address: "okaynokay.xyz"

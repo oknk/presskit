@@ -10,16 +10,12 @@ layout: default
 {% elsif depth == 4 %}{% assign base_url = '../../..' %}{% endif %}
 
 {% assign company = site.data.presskit %}
-{% assign game = page %}
+{% assign project = page %}
 
 <div class='root container'>
 
   <header>
-  {% for file in site.static_files %}
-    {% if file.path == '/images/header.png' %}
-    <img src='{{base_url}}/images/header.png' class='header'>
-    {% endif %}
-  {% endfor %}
+    <img src='{{base_url}}/images/{{project.root}}/header.png' class='header'>
   </header>
 
   <div class='container'>
@@ -31,18 +27,18 @@ layout: default
         <dd>Based in {{company.city}}</dd>
 
         <dt>Release date:</dt>
-        <dd>{{game.release}}</dd>
+        <dd>{{project.release}}</dd>
 
         <dt>Platforms:</dt>
-        {% for platform in game.platforms %}
+        {% for platform in project.platforms %}
         <dd><a href='http://{{platform.link}}'>{{platform.name}}</a></dd>
         {% endfor %}
 
         <dt>Website:</dt>
-        <dd><a href='http://{{game.website}}'>{{game.website}}</a></dd>
+        <dd><a href='http://{{project.website}}'>{{project.website}}</a></dd>
 
         <dt>Regular Price:</dt>
-        {% for price in game.prices %}
+        {% for price in project.prices %}
         <dd>{{price.currency}} {{price.value}}</dd>
         {% else %}
           -
@@ -52,21 +48,42 @@ layout: default
 
     <div class='box'>
       <div class='box'>
-        <h2 id='description'>About The Game</h2>
-        <p>{{game.description}}</p>
+        <h2 id='description'>About The Project</h2>
+        <p>{{project.description}}</p>
       </div>
 
-      {% if game.history %}
+      {% if project.history %}
       <div class='box'>
         <h2 id='history'>History</h2>
-        <p>{{game.history}}</p>
+        <p>{{project.history}}</p>
+      </div>
+      {% endif %}
+
+      {% if project.unique %}
+      <div class='box'>
+        <h2 id='unique'>What makes Seaquence Unique</h2>
+        <p>{{project.unique}}</p>
+      </div>
+      {% endif %}
+
+      {% if project.philosphy %}
+      <div class='box'>
+        <h2 id='philosphy'>Design Philosophy</h2>
+        <p>{{project.philosphy}}</p>
+      </div>
+      {% endif %}
+
+      {% if project.technicals %}
+      <div class='box'>
+        <h2 id='technicals'>Technical Details</h2>
+        <p>{{project.technicals}}</p>
       </div>
       {% endif %}
 
       <div class='box'>
         <h2>Features</h2>
         <ul class='feature-list'>
-        {% for feature in game.features %}
+        {% for feature in project.features %}
           <li>{{feature}}</li>
         {% endfor %}
         </ul>
@@ -76,10 +93,10 @@ layout: default
 
   <div class='box'>
     <h2 id='trailers'>Videos</h2>
-    {% for trailer in game.trailers %}
+    {% for trailer in project.trailers %}
       {% include trailer.html %}
     {% else %}
-    <p>There are currently no trailers available for {{game.title}}. Check back later for more or <a href='#contact'>contact us</a> for specific requests!</p>
+    <p>There are currently no trailers available for {{project.title}}. Check back later for more or <a href='#contact'>contact us</a> for specific requests!</p>
     {% endfor %}
   </div>
 
@@ -91,7 +108,7 @@ layout: default
     {% for file in site.static_files %}
       {% assign image = file.path | split: '/' %}
       {% assign filename = image | last %}
-      {% if image[2] == 'images' and filename != 'header.png' and filename != 'logo.png' and filename != 'icon.png' %}
+      {% if image[2] == project.root and filename != 'header.png' and filename != 'logo.png' and filename != 'icon.png' %}
       {% assign oneImageDisplay = true %}
       <div class='masonry-item'>
         <a href='{{base_url}}{{file.path}}'>
@@ -103,44 +120,43 @@ layout: default
     </div>
 
     {% unless oneImageDisplay %}
-    <p class='images-text'>There are currently no screenshots available for {{game.title}}. Check back later for more or <a href='#contact'>contact us</a> for specific requests!</p>
+    <p class='images-text'>There are currently no screenshots available for {{project.title}}. Check back later for more or <a href='#contact'>contact us</a> for specific requests!</p>
     {% endunless %}
   </div>
 
   <div class='box'>
     <h2 id='logo'>Logo &amp; Icon</h2>
-    <a href='{{base_url}}/images/logo.zip' class='notice'>download all logo files</a>
-
+    <a href='{{base_url}}/images/{{project.root}}/logo.zip' class='notice'>download all logo files</a>
     <div class='container'>
       <div class='box'>
-        <a href='{{base_url}}/images/logo.png'><img src='{{base_url}}/images/logo.png' alt='logo' /></a>
+        <a href='{{base_url}}/images/{{project.root}}/logo.png'><img src='{{base_url}}/images/{{project.root}}/logo.png' alt='logo' /></a>
       </div>
       <div class='box'>
-        <a href='{{base_url}}/images/icon.png'><img src='{{base_url}}/images/icon.png' alt='icon' /></a>
+        <a href='{{base_url}}/images/{{project.root}}/icon.png'><img src='{{base_url}}/images/{{project.root}}/icon.png' alt='icon' /></a>
       </div>
     </div>
-    <!-- <p>There are currently no logos or icons available for {{game.title}}. Check back later for more or <a href='#contact'>contact us</a> for specific requests!</p> -->
+    <!-- <p>There are currently no logos or icons available for {{project.title}}. Check back later for more or <a href='#contact'>contact us</a> for specific requests!</p> -->
   </div>
 
-  {% if game.awards != empty %}
+  {% if project.awards %}
   <div class='box'>
     <h2 id='awards'>Awards &amp; Recognition</h2>
     <ul>
       <!-- promoter awards here -->
 
-      {% for award in game.awards %}
+      {% for award in project.awards %}
       <li>'{{award.description}}' <cite>{{award.info}}</cite></li>
       {% endfor %}
     </ul>
   </div>
   {% endif %}
 
-  {% if game.quotes != empty %}
+  {% if project.quotes %}
   <div class='box'>
     <h2>Selected Articles</h2>
     <!-- promoter quotes here -->
 
-    {% for quote in game.quotes %}
+    {% for quote in project.quotes %}
     <blockquote>
       <p>{{quote.description}}</p>
       <footer>
@@ -153,32 +169,34 @@ layout: default
 
       <!-- press-can-request-copy with distribute() here -->
 
-  {% if game['monetization-permission'] %}
+  {% if project['monetization-permission'] %}
   <div class='box'>
     <h2 id='monetize'>Monetization Permission</h2>
 
-    {% case game['monetization-permission'] %}
+    {% case project['monetization-permission'] %}
     {% when 'false' %}
-    <p>{{company.title}} does currently not allow for the contents of {{game.title}} to be published through video broadcasting services.</p>
+    <p>{{company.title}} does currently not allow for the contents of {{project.title}} to be published through video broadcasting services.</p>
     {% when 'ask' %}
-    <p>{{company.title}} does allow the contents of this game to be published through video broadcasting services only with direct written permission from {{game.title}}. Check at the bottom of this page for contact information.</p>
+    <p>{{company.title}} does allow the contents of this project to be published through video broadcasting services only with direct written permission from {{project.title}}. Check at the bottom of this page for contact information.</p>
     {% when 'non-commercial' %}
-    <p>{{company.title}} allows for the contents of {{game.title}} to be published through video broadcasting services for non-commercial purposes only. Monetization of any video created containing assets from {{game.title}} is not allowed.</p>
+    <p>{{company.title}} allows for the contents of {{project.title}} to be published through video broadcasting services for non-commercial purposes only. Monetization of any video created containing assets from {{project.title}} is not allowed.</p>
     {% when 'monetize' %}
-    <p>{{company.title}} allows for the contents of {{game.title}} to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from {{game.title}} is legally &amp; explicitly allowed by {{company.title}}.</p>
+    <p>{{company.title}} allows for the contents of {{project.title}} to be published through video broadcasting services for any commercial or non-commercial purposes. Monetization of videos created containing assets from {{project.title}} is legally &amp; explicitly allowed by {{company.title}}.</p>
       <!-- This permission can be found in writing at <a href='#'>...</a> -->
     {% endcase %}
   </div>
   {% endif %}
 
+  {% if project.additionals %}
   <div class='box'>
     <h2 id='links'>Additional Links</h2>
 
-    {% for additional in game.additionals %}
+    {% for additional in project.additionals %}
     <dt><a href='http://{{additional.link}}' alt='{{additional.link}}'>{{additional.title}}</a></dt>
     <dd>{{additional.description}}</dd>
     {% endfor %}
   </div>
+  {% endif %}
 
   <div class='box'>
     <h2 id='about'>About {{company.title}}</h2>
@@ -192,18 +210,33 @@ layout: default
 
   <div class='container'>
     <div class='box'>
-      <h2 id='credits'>{{game.title}} Credits</h2>
+
+      <h2 id='credits'>{{project.title}} Credits</h2>
 
       <dl>
-      {% for credit in game.credits %}
+      {% for credit in project.credits %}
         <dt>{{credit.person}}</dt>
         {% if credit.website %}
-        <dd><a href='http://{{credit.website}}'>{{credit.role}}</a></dd>
-        {% else %}
-        <dd>{{credit.role}}</dd>
+          <dd><a href='http://{{credit.website}}'>{{credit.role}}</a></dd>
+        {% else if credit.role %}
+          <dd>{{credit.role}}</dd>
         {% endif %}
       {% endfor %}
       </dl>
+
+      <h2 id='credits'>Collaborators, Special Thanks</h2>
+
+      <dl>
+      {% for credit in project.collaborators %}
+        <dt>{{credit.person}}</dt>
+        {% if credit.website %}
+          <dd><a href='http://{{credit.website}}'>{{credit.role}}</a></dd>
+        {% else if credit.role %}
+          <dd>{{credit.role}}</dd>
+        {% endif %}
+      {% endfor %}
+      </dl>
+
     </div>
 
     <div class='box'>
@@ -211,7 +244,4 @@ layout: default
     </div>
   </div>
 
-  <div class='box'>
-    <p>Based on <a href='http://dopresskit.com/'>presskit()</a> by Rami Ismail (<a href='http://www.vlambeer.com/'>Vlambeer</a>) - also thanks to <a href='#'>these fine folks</a></p>
-  </div>
 </div>
