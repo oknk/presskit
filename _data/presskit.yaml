@@ -16,55 +16,55 @@ description: "Okaynokay (OKNK) is a creative studio founded in 2015 in the San F
 
 history:
   - header: "Early history"
-    text: "We started small, making projects we thought were cool."
+    text: "Started circa 2008."
   - header: "After that"
-    text: "We kept making projects we thought were cool."
+    text: "Still making stuff."
 
-trailers:
-  - name: "This video is nice"
-    youtube: "7jQbITg0MSk"
-  - name: "This one too"
-    youtube: "0CevOaYrYDA"
-    vimeo: "12536488"
+# trailers:
+#   - name: "This video is nice"
+#     youtube: "7jQbITg0MSk"
+#   - name: "This one too"
+#     youtube: "0CevOaYrYDA"
+#     vimeo: "12536488"
 
-awards:
-  - description: "Winner in this highly relevant contest."
-    info: "Award Location, 20 October, 1989"
-  - description: "Nomination for this prestigious award."
-    info: "Award Ceremony, 4 December, 1991"
-  - description: "Winner in this highly relevant contest."
-    info: "Award Location, 20 October, 1989"
-  - description: "Nomination for this prestigious award."
-    info: "Award Ceremony, 4 December, 1991"
+# awards:
+#   - description: "Winner in this highly relevant contest."
+#     info: "Award Location, 20 October, 1989"
+#   - description: "Nomination for this prestigious award."
+#     info: "Award Ceremony, 4 December, 1991"
+#   - description: "Winner in this highly relevant contest."
+#     info: "Award Location, 20 October, 1989"
+#   - description: "Nomination for this prestigious award."
+#     info: "Award Ceremony, 4 December, 1991"
 
-quotes:
-  - description: "This is a rather insignificant quote by a highly important person."
-    name: "Person Name"
-    website: Website
-    link: "http://www.website.com/"
-  - description: "An extremely positive quote from a rather insignificant person. Also great."
-    name: "Some Guy"
-    website: "This Page Is Visited By 12 Visitors A Month"
-    link: "http://geocities.blog.com/"
-  - description: "I pretend to love this game even though I do not actually understand it."
-    name: "Pretentious Bastard"
-    website: "Artsy Page"
-    link: "http://art.tumblr.com/"
-  - description: "HOLY SHIT SO AMAZING"
-    name: "Caps Guy"
-    website: "Angry Review"
-    link: "http://thispage.net/angrytube"
+# quotes:
+#   - description: "This is a rather insignificant quote by a highly important person."
+#     name: "Person Name"
+#     website: Website
+#     link: "http://www.website.com/"
+#   - description: "An extremely positive quote from a rather insignificant person. Also great."
+#     name: "Some Guy"
+#     website: "This Page Is Visited By 12 Visitors A Month"
+#     link: "http://geocities.blog.com/"
+#   - description: "I pretend to love this game even though I do not actually understand it."
+#     name: "Pretentious Bastard"
+#     website: "Artsy Page"
+#     link: "http://art.tumblr.com/"
+#   - description: "HOLY SHIT SO AMAZING"
+#     name: "Caps Guy"
+#     website: "Angry Review"
+#     link: "http://thispage.net/angrytube"
 
 "press-can-request-copy": TRUE
 "monetization-permission": monetize
 
-credits:
+team:
   - person: "Gabriel Dunne"
-    role: "Co-Founder"
+    role: "Person"
     website: "www.gabrieldunne.com"
   - person: "Ryan Alexander"
     website: "www.onecm.com"
-    role: "Co-Founder"
+    role: "Person"
 
 contacts:
   - name: Inquiries

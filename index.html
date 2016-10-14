@@ -67,7 +67,9 @@ layout: default
     </div>
   </div>
 
+
   <div class='box'>
+    <div class="spacer"></div>
     <h2 id='projects'>Projects</h2>
     <ul class='project-list'>
     {% for project in site.projects %}
@@ -78,25 +80,25 @@ layout: default
     </ul>
   </div>
 
-<!--   <div class='box'>
+  {% if presskit.videos %}
+  <div class='box'>
     <h2 id='trailers'>Videos</h2>
-
-    {% for trailer in presskit.trailers %}
+    {% for trailer in presskit.videos %}
       {% include trailer.html %}
     {% else %}
       <p>There are currently no trailers available for {{presskit.title}}. Check back later for more or <a href='#contact'>contact us</a> for specific requests!</p>
     {% endfor %}
-  </div> -->
+  </div>
+  {% endif %}
 
   <div class='box'>
     <h2 id='images'>Images</h2>
     <a href='images/images.zip' class='notice'>download all screenshots &amp; photos</a>
-
     <div class='masonry'>
     {% for file in site.static_files %}
       {% assign image = file.path | split: '/' %}
       {% assign filename = image | last %}
-      {% if image[1] == 'images' and filename != 'header.png' and filename != 'logo.png' and filename != 'icon.png' %}
+      {% if image[1] == 'images' and filename != 'header.png' and filename != 'logo.png' and filename != 'icon.png' and image[3] == nil %}
       <div class='masonry-item'>
         <a href='{{file.path | remove_first:'/'}}'>
           <img src='{{file.path | remove_first:'/'}}' alt='{{image | last}}' />
@@ -120,7 +122,8 @@ layout: default
     </div>
   </div>
 
-<!--   <div class='box'>
+  {% if presskit.awards %}
+  <div class='box'>
     <h2 id='awards'>Awards &amp; Recognition</h2>
     <ul>
       {% for award in presskit.awards %}
@@ -128,7 +131,9 @@ layout: default
       {% endfor %}
     </ul>
   </div>
+  {% endif %}
 
+  {% if presskit.quotes %}
   <div class='box'>
     <h2 id='quotes'>Selected Articles</h2>
 
@@ -140,7 +145,9 @@ layout: default
       </footer>
     </blockquote>
     {% endfor %}
-  </div> -->
+  </div>
+  {% endif %}
+
 
   <div class='box'>
 
@@ -149,9 +156,9 @@ layout: default
       <h2 id='credits'>Team</h2>
 
       <dl>
-      {% for credit in presskit.credits %}
-        <dt>{{credit.person}}</dt>
-        <dd><a href='http://{{credit.website}}'>{{credit.role}}</a></dd>
+      {% for teamperson in presskit.team %}
+        <dt>{{teamperson.person}}</dt>
+        <dd><a href='http://{{teamperson.website}}'>{{teamperson.role}}</a></dd>
       {% endfor %}
       </dl>
     </div>

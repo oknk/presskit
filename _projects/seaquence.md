@@ -4,7 +4,7 @@ layout: project
 root: "seaquence"
 title: "Seaquence"
 release: "Nov 15, 2016"
-website: "http://www.seaquence.org"
+website: "seaquence.org"
 "press-can-request-copy": true # true | true
 "monetization-permission": false # false | ask | non-commercial | monetize
 
