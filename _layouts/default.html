@@ -1,4 +1,4 @@
-{% assign base_url = '/presskit' %}
+{% assign base_url = '/presskit/' %}
 {% assign depth = page.url | split: '/' | size | minus: 1 %}
 {% if    depth == 1 %}{% assign base_url = '.' %}
 {% elsif depth == 2 %}{% assign base_url = '..' %}
