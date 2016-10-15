@@ -11,11 +11,13 @@ layout: default
 
 {% assign company = site.data.presskit %}
 {% assign project = page %}
+{% assign root = project.path | split: '/' | last | split : '.' | first%}
+
 
 <div class='root container'>
 
   <header>
-    <img src='{{base_url}}/images/{{project.root}}/header.png' class='header'>
+    <img src='{{base_url}}/images/{{root}}/header.png' class='header'>
   </header>
 
   <div class='container'>
@@ -36,6 +38,9 @@ layout: default
 
         <dt>Website:</dt>
         <dd><a href='http://{{project.website}}'>{{project.website}}</a></dd>
+
+        <dt>Twitter:</dt>
+        <dd><a href='https://twitter.com/{{project.twitter}}'>@{{project.twitter}}</a></dd>
 
         {% if project.prices %}
         <dt>Regular Price:</dt>
@@ -110,7 +115,7 @@ layout: default
     {% for file in site.static_files %}
       {% assign image = file.path | split: '/' %}
       {% assign filename = image | last %}
-      {% if image[2] == project.root and filename != 'header.png' and filename != 'logo.png' and filename != 'icon.png' %}
+      {% if image[2] == root and filename != 'header.png' and filename != 'logo.png' and filename != 'icon.png' %}
       {% assign oneImageDisplay = true %}
       <div class='masonry-item'>
         <a href='{{base_url}}{{file.path}}'>
@@ -128,13 +133,13 @@ layout: default
 
   <div class='box'>
     <h2 id='logo'>Logo &amp; Icon</h2>
-    <a href='{{base_url}}/images/{{project.root}}/logo.zip' class='notice'>download all logo files</a>
+    <a href='{{base_url}}/images/{{root}}/logo.zip' class='notice'>download all logo files</a>
     <div class='container'>
       <div class='box'>
-        <a href='{{base_url}}/images/{{project.root}}/logo.png'><img src='{{base_url}}/images/{{project.root}}/logo.png' alt='logo' /></a>
+        <a href='{{base_url}}/images/{{root}}/logo.png'><img src='{{base_url}}/images/{{root}}/logo.png' alt='logo' /></a>
       </div>
       <div class='box'>
-        <a href='{{base_url}}/images/{{project.root}}/icon.png'><img src='{{base_url}}/images/{{project.root}}/icon.png' alt='icon' /></a>
+        <a href='{{base_url}}/images/{{root}}/icon.png'><img src='{{base_url}}/images/{{root}}/icon.png' alt='icon' /></a>
       </div>
     </div>
     <!-- <p>There are currently no logos or icons available for {{project.title}}. Check back later for more or <a href='#contact'>contact us</a> for specific requests!</p> -->
@@ -199,6 +204,7 @@ layout: default
     {% endfor %}
   </div>
   {% endif %}
+
 <!--
   <div class='box'>
     <h2 id='about'>About {{company.title}}</h2>
@@ -219,7 +225,7 @@ layout: default
       {% for credit in project.credits %}
         <dt>{{credit.person}}</dt>
         {% if credit.website %}
-          <dd><a href='http://{{credit.website}}'>{{credit.role}}</a></dd>
+          <dd><a href='{{credit.website}}'>{{credit.role}}</a></dd>
         {% else if credit.role %}
           <dd>{{credit.role}}</dd>
         {% endif %}
@@ -231,11 +237,17 @@ layout: default
       <dl>
       {% for credit in project.collaborators %}
         <dt>{{credit.person}}</dt>
+
         {% if credit.website %}
-          <dd><a href='http://{{credit.website}}'>{{credit.role}}</a></dd>
+          <dd><a href='{{credit.website}}'>{{credit.role}}</a></dd>
         {% else if credit.role %}
           <dd>{{credit.role}}</dd>
         {% endif %}
+
+        {% if credit.image %}
+          <dd><img src="{{base_url}}/images/{{root}}/{{credit.image}}"></dd>
+        {% endif %}
+
       {% endfor %}
       </dl>
 

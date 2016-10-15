@@ -1,10 +1,10 @@
 ---
 layout: project
 
-root: "seaquence"
 title: "Seaquence"
 release: "Nov 15, 2016"
 website: "seaquence.org"
+twitter: "seaquence"
 "press-can-request-copy": true # true | true
 "monetization-permission": false # false | ask | non-commercial | monetize
 
@@ -134,5 +134,6 @@ collaborators:
     website: "http://daniel-massey.com"
   - person: "Gray Area"
     website: "http://grayarea.org"
+    image: "grayarea.svg"
 
 ---

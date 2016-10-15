@@ -1,5 +1,1 @@
-# oknk presskit()
-
-### Projects
-
-- Seaquence
+# oknk presskit
