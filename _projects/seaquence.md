@@ -12,15 +12,15 @@ platforms:
   - name: "iOS App Store"
     link: "http://www.itunes.com/"
 
-prices:
-  - currency: USD
-    value: "$6.99"
-  - currency: EUR
-    value: "€6.59"
-  - currency: CAD
-    value: "$6.99"
-  - currency: GBP
-    value: "£6.29"
+#prices:
+#  - currency: USD
+#    value: "$6.99"
+#  - currency: EUR
+#    value: "€6.59"
+#  - currency: CAD
+#    value: "$6.99"
+#  - currency: GBP
+#    value: "£6.29"
 
 keywords:
 

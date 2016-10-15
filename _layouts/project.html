@@ -37,12 +37,16 @@ layout: default
         <dt>Website:</dt>
         <dd><a href='http://{{project.website}}'>{{project.website}}</a></dd>
 
+        {% if project.prices %}
         <dt>Regular Price:</dt>
         {% for price in project.prices %}
         <dd>{{price.currency}} {{price.value}}</dd>
         {% else %}
           -
         {% endfor %}
+        {% endif %}
+
+
       </dl>
     </div>
 
