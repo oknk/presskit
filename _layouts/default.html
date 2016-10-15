@@ -11,13 +11,20 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>{{site.data.presskit.title}}</title>
+
+		<title>
+		{% if page.title %}
+			{{page.title}}
+		{% else %}
+			{{site.data.presskit.title}}
+		{% endif %}
+		 - Press Release
+		</title>
 		<link href="{{site.baseurl}}/style.css" rel="stylesheet">
 		<link href="{{site.baseurl}}/style-dark.css" rel="stylesheet">
 	</head>
 
   <body>
-
 		{{content}}
 
 		<!-- Google Analytics Here -->
