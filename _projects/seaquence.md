@@ -20,9 +20,9 @@ keywords:
   - "music"
   - "synthesis"
 
-description: "Seaquence is a synthesizer app that allows you to compose and explore dynamic musical soundscapes. Intricate and layered musical creations come to life with collections of organic swimming creatures, each with their own voice that contributes to a spatialized composition. Only the closest creatures can be heard, resulting in a sonic experience that changes as you play and explore!"
+description: "Seaquence is a unique synthesizer concept that allows you to compose and explore dynamic musical soundscapes by layering collections of organic swimming musical creatures, each with their own voice that contributes to a spatialized composition. Only the closest creatures can be heard, resulting in a sonic experience that changes as you play and explore!"
 
-history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). The project came from ideas around social music, audio/visual connections and sensibilities, alternative forms of composition music and experimentation. Since it was launched in 2010, the original version of Seaquence has resulted in a vibrant community that has shared well over 200,000 compositions! The latest version of Seaquence is backwards compatible with classic sessions, allowing you to experience them with its brand new graphics and sound engine."
+history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). The project came from ideas around social music, audio/visual connections and sensibilities, alternative forms of composition music and experimentation. Since it was launched in 2010, the original version of Seaquence has resulted in a vibrant community that has shared well over 200,000 compositions. The latest version of Seaquence is backwards compatible with classic sessions, allowing you to experience them with its brand new graphics and sound engine."
 
 design: "The interface is bright, colorful and mostly devoid of text, encouraging exploration and an engaging interaction between audio and visual. A custom physics engine was developed which allows the creatures swimming motions to feel organic and playful. Each creature has a unique swimming movement that is derived from the notes in their individual sequencer tempo and pattern, represented by pulsing nodes in their antennae, and their tail is a graphical representation of their waveform.
 
@@ -34,13 +34,12 @@ features:
   - "Full-featured polyphonic synthesis engine"
   - "Dynamic spatial mixer & stereo-panning engine"
   - "Pro-Level audio features and effects including state-variable filter, delay, and more!"
-  - "Amplitude and and filter envelope editors"
-  - "Up to 10 simultaneous creature voices, with up to 5-note polyphony per voice"
-  - "Unique creature physics and swim behaviors -- swimmin pattern is based on the note sequence!"
-  - "16-step sequencer with scale editor, octave, transpose, swing, and more!"
-  - "5 oscillator waveform types"
+  - "5 creature types, each featuring a different oscillator waveform."
+  - "Up to 10 simultaneous creature voices can play at once, with up to 5-note polyphony per voice"
+  - "Unique creature physics and swim behaviors -- swim patterns are based on the creatures voice parameters!"
+  - "16x16 matrix sequence editor with scale, octave, transpose, swing, envelopes, and more!"
   - "Social sharing features -- Share your creations with your friends!"
-  - "Parent Links are maintained -- Trace back the family tree of a composition!"
+  - "Parent Links are maintained -- trace back the history of a composition!"
   - "MIDI I/O -- Seaquence can talk to external gear!"
 
 trailers:

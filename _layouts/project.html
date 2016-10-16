@@ -26,8 +26,8 @@ layout: default
       <dl>
         <dt>Developer:</dt>
         <dd>
-        {{company.title}}
-        <!-- <a href='{{base_url}}'>{{company.title}}</a> -->
+        <!-- {{company.title}} -->
+        <a href='{{base_url}}'>{{company.title}}</a>
         </dd>
 
         <dt>Location:</dt>
@@ -49,6 +49,12 @@ layout: default
 
         <dt>Twitter:</dt>
         <dd><a href='https://twitter.com/{{project.twitter}}'>@{{project.twitter}}</a></dd>
+
+        <dt>Address:</dt>
+        {% for address_line in company.address %}
+          <dd>{{address_line}}</dd>
+        {% endfor %}
+        </dt>
 
         {% if project.prices %}
         <dt>Regular Price:</dt>
@@ -92,12 +98,12 @@ layout: default
       </div>
       {% endif %}
 
-      {% if project.design %}
+<!--       {% if project.design %}
       <div class='box'>
         <h2 id='design'>Design</h2>
         <p>{{project.design}}</p>
       </div>
-      {% endif %}
+      {% endif %} -->
 
       {% if project.technicals %}
       <div class='box'>
