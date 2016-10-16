@@ -54,7 +54,7 @@ awards:
   - description: "REBOOT:Music"
     info: "The Tech Museum, San Jose, 1 March, 2014"
   - description: "v.01 Exhibition"
-    info: "France"
+    info: "France, October 30, 2012"
   - description: "UCLA Games Festival"
     info: "University of California, Los Angeles, March 23, 2012"
   - description: "Prix Ars Electronica, Digital Communities Honorable Mention"
