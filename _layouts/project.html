@@ -248,10 +248,16 @@ layout: default
         {% else if credit.role %}
           <dd>{{credit.role}}</dd>
         {% endif %}
+
+        {% if credit.image %}
+          <dd><img src="{{base_url}}/images/{{root}}/{{credit.image}}"></dd>
+        {% endif %}
+
+
       {% endfor %}
       </dl>
 
-      <h2 id='credits'>Collaborators</h2>
+<!--       <h2 id='credits'>Collaborators</h2>
 
       <dl>
       {% for credit in project.collaborators %}
@@ -263,12 +269,9 @@ layout: default
           <dd>{{credit.role}}</dd>
         {% endif %}
 
-        {% if credit.image %}
-          <dd><img src="{{base_url}}/images/{{root}}/{{credit.image}}"></dd>
-        {% endif %}
 
       {% endfor %}
-      </dl>
+      </dl> -->
 
     </div>
 

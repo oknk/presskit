@@ -46,7 +46,7 @@ features:
 trailers:
   - name: Trailer
     youtube: c7nRTF2SowQ
-  - name: "Playing with MIDI"
+  - name: Playing with MIDI
     youtube: wm1h49rQNC8
 
 # awards:
@@ -90,8 +90,6 @@ credits:
     website: "http://gabrieldunne.com"
   - person: "Ryan Alexander"
     website: "http://onecm.com"
-
-collaborators:
   - person: "Daniel Massey"
     website: "http://daniel-massey.com"
   - person: "Gray Area"
