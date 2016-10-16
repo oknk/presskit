@@ -13,7 +13,7 @@ social:
   twitter: "oknkstudio"
   instagram: "oknkstudio"
 
-description: "Okaynokay, LLC (OKNK) is the team of Gabriel Dunne and Ryan Alexander."
+description: "Okaynokay, LLC is the team of Gabriel Dunne and Ryan Alexander."
 
 history:
   - header: "Early history"
@@ -23,10 +23,9 @@ history:
 
 bios:
   - person : "Gabriel Dunne"
-    bio : "Gabriel Dunne is an artist, designer and musician whos work explores visual, audible, and physical frequencies. He work integrates a wide range of mediums including installation, sculpture, light, sound, software and live performance."
+    bio: "Gabriel Dunne is an artist, designer and musician whos work explores visual, audible, and physical frequencies. He work integrates a wide range of mediums including installation, sculpture, light, sound, software and live a/v performance."
   - person: "Ryan Alexander"
-    bio : "Ryan Alexander is an artist and researcher currently focused on interactive audio/visual experience design. His recent works include generative simulations, live visual performance, spherical photography, and motion graphics experiments."
-
+    bio: "Ryan Alexander is an artist and researcher currently focused on interactive audio/visual experience design. His recent works include generative simulations, live visual performance, spherical photography, and motion graphics experiments."
 
 # trailers:
 #   - name: "This video is nice"
@@ -83,3 +82,6 @@ people:
 #     address: "http://instagram.com/oknkstudio"
 #   - name: Web
 #     address: "okaynokay.xyz"
+
+
+

@@ -183,6 +183,17 @@ layout: default
   </div>
   {% endif %}
 
+  {% if project.press %}
+  <div class='box'>
+    <h2 id='awards'>Press</h2>
+    <ul>
+      {% for press in project.press %}
+      <li><a href='{{press.link}}'>{{press.title}}</a> <cite>{{press.source}}</cite>, {{press.date}}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   {% if project.quotes %}
   <div class='box'>
     <h2>Selected Articles</h2>
