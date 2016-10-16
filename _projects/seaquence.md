@@ -44,8 +44,6 @@ features:
 
 trailers:
   - name: Trailer
-    youtube: c7nRTF2SowQ
-  - name: Playing with MIDI
     youtube: wm1h49rQNC8
 
 awards:
@@ -129,6 +127,6 @@ credits:
     website: "http://daniel-massey.com"
   - person: "Gray Area"
     website: "http://grayarea.org"
-    image: "grayarea.svg"
+    # image: "grayarea.svg"
 
 ---
