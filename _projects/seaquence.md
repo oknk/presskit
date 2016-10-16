@@ -20,7 +20,7 @@ keywords:
   - "music"
   - "synthesis"
 
-description: "Seaquence is a synthesizer app that allows you to compose and explore dynamic musical soundscapes. Intricate and layered musical creations come to life with collections of organic swimming creatures, each with their own voice that contributes to a spatialized composition. Only the closest creatures can be heard, resulting in a sonic experience that evolves and changes as you listen!"
+description: "Seaquence is a synthesizer app that allows you to compose and explore dynamic musical soundscapes. Intricate and layered musical creations come to life with collections of organic swimming creatures, each with their own voice that contributes to a spatialized composition. Only the closest creatures can be heard, resulting in a sonic experience that changes as you play and explore!"
 
 history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). The project came from ideas around social music, audio/visual connections and sensibilities, alternative forms of composition music and experimentation. Since it was launched in 2010, the original version of Seaquence has resulted in a vibrant community that has shared well over 200,000 compositions."
 
