@@ -18,9 +18,11 @@ layout: default
     <div class='box'>
       <h2 id='factsheet'>Factsheet</h2>
       <dl>
-        <dt>Developer:</dt>
+<!--         <dt>Developer:</dt>
         <dd><a href=''>{{presskit.title}}</a></dd>
-        <dd>Based in {{presskit.city}}</dd>
+ -->
+        <dt>Location</dt>
+        <dd>{{presskit.location}}</dd>
 
         <dt>Founded</dt>
         <dd>{{presskit.founded}}</dd>
@@ -28,7 +30,7 @@ layout: default
         <dt>Website:</dt>
         <dd><a href='http://{{presskit.website}}'>{{presskit.website}}</a></dd>
 
-        <dt>Contact:</dt>
+        <dt>Press/Business Contact:</dt>
         <dd><a href='mailto:{{presskit.email}}'>{{presskit.email}}</a></dd>
 
         <dt>Social:</dt>
@@ -57,6 +59,14 @@ layout: default
         <h2 id='description'>About</h2>
         <p>{{presskit.description}}</p>
       </div>
+
+      {% if presskit.bios %}
+      <div class='box'>
+      {% for bio in presskit.bios %}
+        <p>{{bio.bio}}</p>
+      {% endfor %}
+      </div>
+      {% endif %}
 
 <!--       <div class='box'>
         <h2 id='history'>History</h2>
@@ -186,6 +196,10 @@ layout: default
 
   </div>
   </div>
+
+      <div class='box footer'>
+        {% include footer.html %}
+      </div>
 
 
 

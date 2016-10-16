@@ -25,16 +25,24 @@ layout: default
       <h2 id='factsheet'>Factsheet</h2>
       <dl>
         <dt>Developer:</dt>
-        <dd><a href='{{base_url}}'>{{company.title}}</a></dd>
-        <dd>Based in {{company.city}}</dd>
+        <dd>
+        {{company.title}}
+        <!-- <a href='{{base_url}}'>{{company.title}}</a> -->
+        </dd>
 
-        <dt>Release date:</dt>
-        <dd>{{project.release}}</dd>
+        <dt>Location:</dt>
+        <dd>{{company.location}}</dd>
 
-        <dt>Platforms:</dt>
+        <dt>Press Contact</dt>
+        <dd><a href="mailto:{{project.email}}">{{project.email}}</a></dd>
+
+<!--         <dt>Release date:</dt>
+        <dd>{{project.release}}</dd> -->
+
+<!--         <dt>Platforms:</dt>
         {% for platform in project.platforms %}
         <dd><a href='http://{{platform.link}}'>{{platform.name}}</a></dd>
-        {% endfor %}
+        {% endfor %} -->
 
         <dt>Website:</dt>
         <dd><a href='http://{{project.website}}'>{{project.website}}</a></dd>
@@ -57,8 +65,17 @@ layout: default
 
     <div class='box'>
       <div class='box'>
-        <h2 id='description'>About The Project</h2>
+        <h2 id='description'>About</h2>
         <p>{{project.description}}</p>
+      </div>
+
+      <div class='box'>
+        <h2>Features</h2>
+        <ul class='feature-list'>
+        {% for feature in project.features %}
+          <li>{{feature}}</li>
+        {% endfor %}
+        </ul>
       </div>
 
       {% if project.history %}
@@ -75,10 +92,10 @@ layout: default
       </div>
       {% endif %}
 
-      {% if project.philosphy %}
+      {% if project.design %}
       <div class='box'>
-        <h2 id='philosphy'>Design Philosophy</h2>
-        <p>{{project.philosphy}}</p>
+        <h2 id='design'>Design</h2>
+        <p>{{project.design}}</p>
       </div>
       {% endif %}
 
@@ -89,14 +106,16 @@ layout: default
       </div>
       {% endif %}
 
+      {% if project.bios %}
       <div class='box'>
-        <h2>Features</h2>
-        <ul class='feature-list'>
-        {% for feature in project.features %}
-          <li>{{feature}}</li>
-        {% endfor %}
-        </ul>
+        <h2 id='bios'>Team Bios</h2>
+      {% for bio in project.bios %}
+        <dt>{{bio.person}}</dt>
+        <p>{{bio.bio}}</p>
+      {% endfor %}
       </div>
+      {% endif %}
+
 
   <div class='box'>
     <h2 id='trailers'>Videos</h2>
@@ -256,9 +275,13 @@ layout: default
     <div class='box'>
       {% include contacts.html %}
     </div>
+
   </div>
+
+      <div class='box footer'>
+        {% include footer.html %}
+      </div>
 
     </div>
   </div>
-
 </div>
