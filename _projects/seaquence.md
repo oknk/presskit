@@ -22,7 +22,7 @@ keywords:
 
 description: "Seaquence is a synthesizer app that allows you to compose and explore dynamic musical soundscapes. Intricate and layered musical creations come to life with collections of organic swimming creatures, each with their own voice that contributes to a spatialized composition. Only the closest creatures can be heard, resulting in a sonic experience that changes as you play and explore!"
 
-history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). The project came from ideas around social music, audio/visual connections and sensibilities, alternative forms of composition music and experimentation. Since it was launched in 2010, the original version of Seaquence has resulted in a vibrant community that has shared well over 200,000 compositions."
+history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). The project came from ideas around social music, audio/visual connections and sensibilities, alternative forms of composition music and experimentation. Since it was launched in 2010, the original version of Seaquence has resulted in a vibrant community that has shared well over 200,000 compositions! The latest version of Seaquence is backwards compatible with classic sessions, allowing you to experience them with its brand new graphics and sound engine."
 
 design: "The interface is bright, colorful and mostly devoid of text, encouraging exploration and an engaging interaction between audio and visual. A custom physics engine was developed which allows the creatures swimming motions to feel organic and playful. Each creature has a unique swimming movement that is derived from the notes in their individual sequencer tempo and pattern, represented by pulsing nodes in their antennae, and their tail is a graphical representation of their waveform.
 
@@ -31,17 +31,17 @@ design: "The interface is bright, colorful and mostly devoid of text, encouragin
   The musical composition design approach is one that encourages exploration and education. By tying visual interface components to their synthesis counterparts, a composer who is unfamiliar with synthesizer or musical concepts are encouraged to experiment and create sounds freely. Creatures appear to swim under a microscope, both representing an exploration of the unseen and unknown, and a discovery of new sounds and tones. The online browser encourages users to browse what other people have made, and share their own creations. If a user starts a composition from an existing session, the family tree is maintained so you can always trace back up the tree to the parent session."
 
 features:
-  - "Fully-featured polyphonic synthesis engine."
-  - "Dynamically spatialized mixer & stereo-panning engine."
-  - "Up to 10 Simultaneous creature voices, with up to 5 note polyphony per creature voice."
-  - "Individual creature physics and swim patterns."
-  - "Professional synthesis features including filters, delay, and more!"
-  - "16-step sequencer with scale editor, octave, and transpose."
-  - "5 oscillator waveform types."
-  - "Amplitude and and filter envelope editors."
-  - "Social sharing features -- Share links to your creations with your friends!"
-  - "Parent Links are maintained -- Trace back the family tree to the parent session."
-  - "MIDI i/o -- Connect Seaquence to external gear!"
+  - "Full-featured polyphonic synthesis engine"
+  - "Dynamic spatial mixer & stereo-panning engine"
+  - "Pro-Level audio features and effects including state-variable filter, delay, and more!"
+  - "Amplitude and and filter envelope editors"
+  - "Up to 10 simultaneous creature voices, with up to 5-note polyphony per voice"
+  - "Unique creature physics and swim behaviors -- swimmin pattern is based on the note sequence!"
+  - "16-step sequencer with scale editor, octave, transpose, swing, and more!"
+  - "5 oscillator waveform types"
+  - "Social sharing features -- Share your creations with your friends!"
+  - "Parent Links are maintained -- Trace back the family tree of a composition!"
+  - "MIDI I/O -- Seaquence can talk to external gear!"
 
 trailers:
   - name: Trailer
