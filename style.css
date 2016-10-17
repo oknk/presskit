@@ -95,6 +95,10 @@ blockquote footer {
   text-align: right;
 }
 
+img {
+  max-width:600px;
+}
+
 .iframe-container {
   position: relative;
   padding-bottom: 56.25%

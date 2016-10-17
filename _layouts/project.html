@@ -156,7 +156,8 @@ layout: default
     {% endunless %}
   </div>
 
-  <div class='box'><!--
+  <!--
+  <div class='box'>
     <h2 id='logo'>Logo &amp; Icon</h2>
     <a href='{{base_url}}/images/{{root}}/logo.zip' class='notice'>download all logo files</a>
     <div class='container'>
@@ -168,26 +169,27 @@ layout: default
       </div>
     </div>
     <p>There are currently no logos or icons available for {{project.title}}. Check back later for more or <a href='#contact'>contact us</a> for specific requests!</p>
-  </div> -->
+  </div>
+  -->
 
-  {% if project.awards %}
+  {% if project.awards-old %}
   <div class='box'>
-    <h2 id='awards'>Awards &amp; Recognition</h2>
+    <h2 id='awards'>Awards &amp; Recognition (www.seaquence.org)</h2>
     <ul>
       <!-- promoter awards here -->
 
-      {% for award in project.awards %}
+      {% for award in project.awards-old %}
       <li>'{{award.description}}' <cite>{{award.info}}</cite></li>
       {% endfor %}
     </ul>
   </div>
   {% endif %}
 
-  {% if project.press %}
+  {% if project.press-old %}
   <div class='box'>
-    <h2 id='awards'>Press</h2>
+    <h2 id='awards'>Press (www.seaquence.org)</h2>
     <ul>
-      {% for press in project.press %}
+      {% for press in project.press-old %}
       <li><a href='{{press.link}}'>{{press.title}}</a> <cite>{{press.source}}</cite>, {{press.date}}</li>
       {% endfor %}
     </ul>

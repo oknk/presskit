@@ -35,18 +35,20 @@ features:
   - "Dynamic spatial mixer & stereo-panning engine"
   - "Pro-Level audio features and effects including state-variable filter, delay, and more!"
   - "5 creature types, each featuring a different oscillator waveform."
-  - "Up to 10 simultaneous creature voices can play at once, with up to 5-note polyphony per voice"
-  - "Unique creature physics and swim behaviors -- swim patterns are based on the creatures voice parameters!"
+  - "Up to 10 simultaneous creature voices can play at once, with up to 5-note polyphony per voice."
+  - "Unique creature physics and swim behaviors -- swim patterns are based on the creatures voice parameters."
   - "16x16 matrix sequence editor with scale, octave, transpose, swing, envelopes, and more!"
   - "Social sharing features -- Share your creations with your friends!"
-  - "Parent Links are maintained -- trace back the history of a composition!"
-  - "MIDI I/O -- Seaquence can talk to external gear!"
+  - "Parent Links are maintained -- trace back the history of a composition."
+  - "MIDI I/O -- Seaquence can talk to external gear! "
 
 trailers:
   - name: Trailer
     youtube: wm1h49rQNC8
 
 awards:
+
+awards-old:
   - description: "Gray Area Festival"
     info: "Gray Area, San Francisco, March 31, 2016"
   - description: "REBOOT:Music"
@@ -63,6 +65,8 @@ awards:
     info: "Gray Area Foundation, San Francisco, Janurary 11, 2010"
 
 press:
+
+press-old:
   - title: "Seaquence: An Experimental Musical Petri Dish"
     source: "BoingBoing"
     link: "http://boingboing.net/2010/12/20/seaquence-an-experim.html"
