@@ -20,17 +20,23 @@ keywords:
   - "music"
   - "synthesis"
 
-description: "Seaquence is a unique synthesizer music app that allows you to compose and explore dynamic musical soundscapes created by layering collections of organic swimming musical creatures. Only the closest creatures can be heard as a spatialized composition emerges, resulting in a unique sonic experience that changes as you play and explore!
+description: "Seaquence -- The cult-classic synthesizer web-app is now being released for iOS!
+
+Seaquence is a unique musical synthesizer experience that allows you to compose and explore dynamic musical soundscapes created by layering collections of organic swimming musical creatures. Only the closest creatures can be heard as a spatialized composition emerges, resulting in a unique sonic experience that changes as you play and explore!
 
   <br /><br />
 
-  Seaquence's approach to musical composition is one that encourages synesthetic exploration. Even composers who are unfamiliar with synthesizer and musical concepts are encouraged to experiment and create sounds freely. Creatures appear to swim under a microscope, making it a unique experience to you discover new sounds and tones as you explore.
+  Seaquence's approach to musical composition is one that encourages synesthetic creativity. Even composers who are unfamiliar with synthesizer and musical concepts are encouraged to experiment with the visual and tactile interface to create sounds freely. Creating compositions with groups Seaquence creatures is a unique experience that allows you discover new sounds and tones as your creation swims around and affect the mix as you listen.
 
   <br /><br />
 
   Seaquence also allows you to share your creations with your friends and browse what other people have made to get inspired!"
 
-history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). The project came from ideas around social music, audio/visual connections and sensibilities, alternative forms of composition music and experimentation. Since it was launched in 2010, the original version of Seaquence has resulted in a vibrant community that has shared well over 200,000 compositions. The latest version of Seaquence is backwards compatible with classic sessions, built from the ground up with a brand new graphics and sound engine, and tons more features!"
+history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). The project came from ideas around social music, audio/visual connections and sensibilities, alternative forms of composition music and experimentation. Since it was launched in 2010, Seaquence.org has resulted in a vibrant community that has shared well over 200,000 compositions and featured on many blogs, publications, and exhibitions and continues to be enjoyed by people around the world.
+
+  <br /><br />
+
+  Later, around late 2014, Ryan and Gabe started porting Seaquence to a brand-new codebase and sound engine, introducing brand new shiny new graphic and sound features, graduating Seaquence from a web-toy to a full-fledged creative experience!"
 
 design: "The interface is bright, colorful and mostly devoid of text, encouraging exploration and an engaging interaction between audio and visual. A custom physics engine was developed which allows the creatures swimming motions to feel organic and playful. Each creature has a unique swimming movement that is derived from the notes in their individual sequencer tempo and pattern, represented by pulsing nodes in their antennae, and their tail is a graphical representation of their waveform.
 
