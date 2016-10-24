@@ -20,17 +20,28 @@ keywords:
   - "music"
   - "synthesis"
 
-description: "Seaquence -- The cult-classic synthesizer web-app is now being released for iOS!
+description: "Seaquence -- Make living music!
 
-Seaquence is a unique musical synthesizer experience that allows you to compose and explore dynamic musical soundscapes created by layering collections of organic swimming musical creatures. Only the closest creatures can be heard as a spatialized composition emerges, resulting in a unique sonic experience that changes as you play and explore!
+<br/ ><br />
+
+Arp Environment
+
+Arpeggio Environment
+- JT
+
+Seaquence is a unique synthesizer app that allows you to create musical soundscapes by layering collections of organic swimming musical creatures. Only the closest creatures can be heard as an organic, spatialized mix emerges, resulting in a unique sonic experience that changes as you play, listen, and share your creations with friends!
 
   <br /><br />
 
-  Seaquence's approach to musical composition is one that encourages synesthetic creativity. Even composers who are unfamiliar with synthesizer and musical concepts are encouraged to experiment with the visual and tactile interface to create sounds freely. Creating compositions with groups Seaquence creatures is a unique experience that allows you discover new sounds and tones as your creation swims around and affect the mix as you listen.
+  Under the hood, Seaquence features a pro-level synthesizer and timing engine. Even composers who are brand new to synthesis will be able to unlock their synesthetic creativity!
+
+  <br /> <br />
+
+    Seaquence's approach to musical composition is one that encourages synesthetic creativity. Even composers who are unfamiliar with synthesizer and musical concepts are encouraged to experiment with the visual and tactile interface to create sounds freely. Creating compositions with groups Seaquence creatures is a unique experience that allows you discover new sounds and tones as your creation swims around and affect the mix as you listen.
 
   <br /><br />
 
-  Seaquence also allows you to share your creations with your friends and browse what other people have made to get inspired!"
+  With Seaquence, you can share your creations with friends and browse what other people have made to get inspired!"
 
 history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). The project came from ideas around social music, audio/visual connections and sensibilities, alternative forms of composition music and experimentation. Since it was launched in 2010, Seaquence.org has resulted in a vibrant community that has shared well over 200,000 compositions and featured on many blogs, publications, and exhibitions and continues to be enjoyed by people around the world.
 

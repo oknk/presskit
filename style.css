@@ -1,6 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700|Open+Sans:400,300,700|Roboto+Slab:300|Roboto:300);
 /*@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');*/
 
+
+@media only screen and (max-device-width: 480px) {
+  header, header img {
+    width:100%;
+  }
+
+  .factsheet {
+    float:left;
+    background:#f0f;
+  }
+
+}
+
 @media (max-width: 767px) {}
 
 body {
