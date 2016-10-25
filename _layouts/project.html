@@ -75,6 +75,13 @@ layout: default
         <p>{{project.description}}</p>
       </div>
 
+      {% if project.history %}
+      <div class='box'>
+        <h2 id='history'>History</h2>
+        <p>{{project.history}}</p>
+      </div>
+      {% endif %}
+
       <div class='box'>
         <h2>Features</h2>
         <ul class='feature-list'>
@@ -84,12 +91,7 @@ layout: default
         </ul>
       </div>
 
-      {% if project.history %}
-      <div class='box'>
-        <h2 id='history'>History</h2>
-        <p>{{project.history}}</p>
-      </div>
-      {% endif %}
+
 
       {% if project.unique %}
       <div class='box'>
@@ -140,7 +142,8 @@ layout: default
     {% for file in site.static_files %}
       {% assign image = file.path | split: '/' %}
       {% assign filename = image | last %}
-      {% if image[2] == root and filename != 'header.png' and filename != 'logo.png' and filename != 'icon.png' %}
+
+      {% if image[2] == root and image[3] != 'logos' and filename != 'header.png' and filename != 'logo.png' and filename != 'icon.png' %}
       {% assign oneImageDisplay = true %}
       <div class='masonry-item'>
         <a href='{{base_url}}{{file.path}}'>
@@ -258,21 +261,35 @@ layout: default
     <div class='box'>
 
       <h2 id='credits'>Credits</h2>
-
       <dl>
       {% for credit in project.credits %}
         <dt>{{credit.person}}</dt>
-        {% if credit.website %}
-          <dd><a href='{{credit.website}}'>{{credit.role}}</a></dd>
+        {% if credit.url %}
+          <dd><a href='{{credit.url}}'>{{credit.url}}</a></dd>
         {% else if credit.role %}
           <dd>{{credit.role}}</dd>
         {% endif %}
+      {% endfor %}
+      </dl>
 
-        {% if credit.image %}
-          <dd><img src="{{base_url}}/images/{{root}}/{{credit.image}}"></dd>
+      <h2 id='thanks'>Seaquence Family</h2>
+      <dl>
+      {% for credit in project.family %}
+        <dt>{{credit.person}}</dt>
+        {% if credit.url %}
+          <dd><a href='{{credit.url}}'>{{credit.url}}</a></dd>
+        {% else if credit.role %}
+          <dd>{{credit.role}}</dd>
         {% endif %}
+      {% endfor %}
+      </dl>
 
 
+<br /><br />
+
+      <dl>
+      {% for logo in project.logos %}
+        <dd class='logo'><a href='{{logo.url}}'><img src="{{base_url}}/images/{{root}}/{{logo.img}}"/ ></a></dd><br/>
       {% endfor %}
       </dl>
 

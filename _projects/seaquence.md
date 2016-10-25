@@ -24,30 +24,21 @@ description: "Seaquence -- Make living music!
 
 <br/ ><br />
 
-Arp Environment
+Seaquence is a unique arpeggio environment that allows you to create musical soundscapes by layering collections of swimming creatures. A spatialized mix emerges as only the closest creatures can be heard, resulting in a organic sonic experience that changes as you play.
 
-Arpeggio Environment
-- JT
-
-Seaquence is a unique synthesizer app that allows you to create musical soundscapes by layering collections of organic swimming musical creatures. Only the closest creatures can be heard as an organic, spatialized mix emerges, resulting in a unique sonic experience that changes as you play, listen, and share your creations with friends!
-
-  <br /><br />
+  <br /><br/>
 
   Under the hood, Seaquence features a pro-level synthesizer and timing engine. Even composers who are brand new to synthesis will be able to unlock their synesthetic creativity!
 
-  <br /> <br />
+  <br /><br />
 
-    Seaquence's approach to musical composition is one that encourages synesthetic creativity. Even composers who are unfamiliar with synthesizer and musical concepts are encouraged to experiment with the visual and tactile interface to create sounds freely. Creating compositions with groups Seaquence creatures is a unique experience that allows you discover new sounds and tones as your creation swims around and affect the mix as you listen.
+  Share your creations with friends and browse what other people have made to get inspired!"
+
+history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). Since it's launch, Seaquence.org has blossomed into a vibrant community that has shared well over 200,000 compositions and continues to be enjoyed by people around the world.
 
   <br /><br />
 
-  With Seaquence, you can share your creations with friends and browse what other people have made to get inspired!"
-
-history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). The project came from ideas around social music, audio/visual connections and sensibilities, alternative forms of composition music and experimentation. Since it was launched in 2010, Seaquence.org has resulted in a vibrant community that has shared well over 200,000 compositions and featured on many blogs, publications, and exhibitions and continues to be enjoyed by people around the world.
-
-  <br /><br />
-
-  Later, around late 2014, Ryan and Gabe started porting Seaquence to a brand-new codebase and sound engine, introducing brand new shiny new graphic and sound features, graduating Seaquence from a web-toy to a full-fledged creative experience!"
+  Later, around late 2014, Ryan and Gabe started porting Seaquence to a brand-new codebase and sound engine, introducing shiny new graphic and sound features, graduating Seaquence from a web-toy to a full-fledged creative experience."
 
 design: "The interface is bright, colorful and mostly devoid of text, encouraging exploration and an engaging interaction between audio and visual. A custom physics engine was developed which allows the creatures swimming motions to feel organic and playful. Each creature has a unique swimming movement that is derived from the notes in their individual sequencer tempo and pattern, represented by pulsing nodes in their antennae, and their tail is a graphical representation of their waveform.
 
@@ -56,16 +47,17 @@ design: "The interface is bright, colorful and mostly devoid of text, encouragin
   The musical composition design approach is one that encourages exploration and education. By tying visual interface components to their synthesis counterparts, a composer who is unfamiliar with synthesizer or musical concepts are encouraged to experiment and create sounds freely. Creatures appear to swim under a microscope, both representing an exploration of the unseen and unknown, and a discovery of new sounds and tones. The online browser encourages users to browse what other people have made, and share their own creations. If a user starts a composition from an existing session, the family tree is maintained so you can always trace back up the tree to the parent session."
 
 features:
-  - "Full-featured polyphonic synthesis engine"
-  - "Dynamic spatial mixer & stereo-panning engine"
-  - "Pro-Level audio features and effects including state-variable filter, delay, and more!"
-  - "5 creature types, each featuring a different oscillator waveform."
-  - "Up to 10 simultaneous creature voices can play at once, with up to 5-note polyphony per voice."
-  - "Unique creature physics and swim behaviors -- swim patterns are based on the creatures voice parameters."
-  - "16x16 matrix sequence editor with scale, octave, transpose, swing, envelopes, and more!"
-  - "Social sharing features -- Share your creations with your friends!"
-  - "Parent Links are maintained -- trace back the history of a composition."
-  - "MIDI I/O -- Seaquence can talk to external gear! "
+  - "Fully featured polyphonic synthesis engine"
+  - "Dynamic spatial mixer and stereo-panning engine"
+  - "Unique creature physics and swim behaviors &mdash; swim patterns are based on creature voice parameters"
+  - "Up to 10 creatures can be heard simultaneously"
+  - "Precision sample-based clock"
+  - "Professional-level audio features and effects including state-variable filter, delay, and more"
+  - "Intuitive visual editing features, including 16x16 sequencer matrix with scale, octave, transpose, swing, envelopes, and more"
+  - "5 creature types included, each featuring a different oscillator waveform"
+  - "Social sharing features &mdash; Share your creations with your friends!"
+  - "Parent Links are maintained &mdash; trace back the history of a composition"
+  - "MIDI I/O &mdash; Seaquence can talk to external gear! "
 
 trailers:
   - name: Trailer
@@ -139,23 +131,28 @@ press-old:
 #     website: "Angry Review"
 #     link: "http://"
 
-# additionals:
-#   - title: "Original Soundtrack"
-#     description: "Available for free!"
-#     link: "http://somemusicsite.com/thislink"
-#   - title: "Release Blog Post"
-#     description: "The blog-post through which this game was released."
-#     link: "http://vlambeer.com/bloglink"
 
 credits:
   - person: "Gabriel Dunne"
-    website: "http://gabrieldunne.com"
+    url: "http://gabrieldunne.com"
   - person: "Ryan Alexander"
-    website: "http://onecm.com"
+    url: "http://onecm.com"
+
+family:
   - person: "Daniel Massey"
-    website: "http://daniel-massey.com"
+    url: "http://daniel-massey.com"
   - person: "Gray Area"
-    website: "http://grayarea.org"
-    # image: "grayarea.svg"
+    url: "http://grayarea.org"
+
+logos:
+  - name: "Gray Area"
+    img: "logos/grayarea.svg"
+    url: "http://grayarea.org"
+  - name: "Cinder"
+    img: "logos/cinder.svg"
+    url: "http://libcinder.org"
+  - name: "Pure Data"
+    img: "logos/puredata.png"
+    url: "http://puredata.info/"
 
 ---
