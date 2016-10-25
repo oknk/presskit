@@ -20,7 +20,7 @@ keywords:
   - "music"
   - "synthesis"
 
-description: "Seaquence -- Make living music!
+description: "Seaquence &mdash; Make living music!
 
 <br/ ><br />
 
