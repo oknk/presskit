@@ -15,37 +15,33 @@ layout: default
   </header>
 
   <div class='container'>
-
     <div class='box factsheet'>
       <h2 id='factsheet'>Factsheet</h2>
       <dl>
-<!--         <dt>Developer:</dt>
-        <dd><a href=''>{{presskit.title}}</a></dd>
- -->
-        <dt>Location</dt>
+        <dt><h3>Location</h3></dt>
         <dd>{{presskit.location}}</dd>
 
-        <dt>Founded</dt>
+        <dt><h3>Founded</h3></dt>
         <dd>{{presskit.founded}}</dd>
 
-        <dt>Website:</dt>
+        <dt><h3>Website</h3></dt>
         <dd><a href='http://{{presskit.website}}'>{{presskit.website}}</a></dd>
 
-        <dt>Press/Business Contact:</dt>
+        <dt><h3>Press/Business Contact</h3></dt>
         <dd><a href='mailto:{{presskit.email}}'>{{presskit.email}}</a></dd>
 
-        <dt>Social:</dt>
-        <dd>twitter <a href='http://twitter.com/{{presskit.social.twitter}}'>@{{presskit.social.twitter}}</a></dd>
-        <dd>insta <a href='http://instagram.com/{{presskit.social.instagram}}'>@{{presskit.social.instagram}}</a></dd>
+        <dt><h3>Social</h3></dt>
+        <dd>Twitter <a href='http://twitter.com/{{presskit.social.twitter}}'>@{{presskit.social.twitter}}</a></dd>
+        <dd>Instagram <a href='http://instagram.com/{{presskit.social.instagram}}'>@{{presskit.social.instagram}}</a></dd>
 
-        <dt>Projects:</dt>
+        <dt><h3>Projects</h3></dt>
         {% for project in site.projects %}
           <dd><a href='{{project.url | remove_first:'/' | remove: '.html' | prepend: base_url}}'>{{project.title}}</a></dd>
         {% else %}
           <dd>-</dd>
         {% endfor %}
 
-        <dt>Address:</dt>
+        <dt><h3>Address</h3></dt>
         {% for address_line in presskit.address %}
           <dd>{{address_line}}</dd>
         {% endfor %}

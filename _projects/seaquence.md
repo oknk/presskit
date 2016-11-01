@@ -20,25 +20,37 @@ keywords:
   - "music"
   - "synthesis"
 
-description: "Seaquence &mdash; Make living music!
+description: "
+  <p>
+  Seaquence &mdash; Make living music!
+  </p>
 
-<br/ ><br />
+  <p>
+  Seaquence is a unique arpeggio environment that allows you to create musical soundscapes by layering collections of swimming creatures. A spatialized mix emerges as only the closest creatures can be heard, resulting in a organic sonic experience that changes as you play.
+  </p>
 
-Seaquence is a unique arpeggio environment that allows you to create musical soundscapes by layering collections of swimming creatures. A spatialized mix emerges as only the closest creatures can be heard, resulting in a organic sonic experience that changes as you play.
-
-  <br /><br/>
-
+  <p>
   Seaquence features a pro-level synthesizer and timing engine controlled by a fun and direct interface. Even composers who are brand new to synthesis will be able to unlock their synesthetic creativity!
+  </p>
 
-  <br /><br />
+  <p>
+  Share your creations with friends and browse what other people have made to get inspired!
+  </p>
+  "
 
-  Share your creations with friends and browse what other people have made to get inspired!"
+history: "
+  <p>
+  In the spring of 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first artist residency program. While in residence they created the original <a href=\"http://seaquence.org\">Seaquence.org</a> web app. Since it's launch, Seaquence.org has blossomed into a vibrant community that has shared well over 200,000 compositions and continues to be enjoyed by people around the world.
+  </p>
 
-history: "Way back in 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first Artist Residency program. While in residence they created the original Seaquence web app (http://seaquence.org). Since it's launch, Seaquence.org has blossomed into a vibrant community that has shared well over 200,000 compositions and continues to be enjoyed by people around the world.
+  <p>
+  Since then a lot has changed. Seaquence.org was originally written in Adobe Flash, which has slowly been phased out as an interactive platform on the web, and doesn't work at all on mobile devices.
+  </p>
 
-  <br /><br />
-
-  Later, around late 2014, Ryan and Gabe started porting Seaquence to a brand-new codebase and sound engine, introducing shiny new graphic and sound features, graduating Seaquence from a web-toy to a full-fledged creative experience."
+  <p>
+  In mid-2014 Ryan and Gabe decided that the best way to keep the Seaquence community alive was to do what they had been talking about for years, and bring the app to iPad. Over the next two and a half years, they built a new version of Seaquence from the ground up in a brand-new codebase and sound engine, introducing shiny new graphic and sound features, graduating Seaquence from a web-toy to a full-fledged creative experience.
+  </p>
+  "
 
 design: "The interface is bright, colorful and mostly devoid of text, encouraging exploration and an engaging interaction between audio and visual. A custom physics engine was developed which allows the creatures swimming motions to feel organic and playful. Each creature has a unique swimming movement that is derived from the notes in their individual sequencer tempo and pattern, represented by pulsing nodes in their antennae, and their tail is a graphical representation of their waveform.
 
@@ -57,7 +69,7 @@ features:
   - "5 creature types included, each featuring a different oscillator waveform"
   - "Social sharing features &mdash; Share your creations with your friends!"
   - "Parent Links are maintained &mdash; trace back the history of a composition"
-  - "MIDI I/O &mdash; Seaquence can talk to external gear! "
+  - "MIDI I/O &mdash; Seaquence can talk to external gear!"
 
 trailers:
   - name: Trailer
@@ -137,8 +149,17 @@ credits:
 collaborators:
   - person: "Daniel Massey"
     url: "http://daniel-massey.com"
-  - person: "Gray Area"
-    url: "http://grayarea.org"
+
+collaborators-grayarea:
+  - person: "Josette Melchor"
+  - person: "Joe Brilliant"
+  - person: "Susan Langan"
+  - person: "Chris Delbuck"
+  - person: "Julie Delbuck"
+  - person: "Thomas Bates"
+  - person: "Tana Sprague"
+  - person: "Janetti Chon"
+  - person: "Melissa Wilson"
 
 logos:
   - name: "Gray Area"

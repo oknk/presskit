@@ -21,19 +21,19 @@ layout: default
   </header>
 
   <div class='container'>
-    <div class='box'>
+    <div class='box factsheet'>
       <h2 id='factsheet'>Factsheet</h2>
       <dl>
-        <dt>Developer:</dt>
-        <dd>
+        <dt><h3>Developer</h3></dt>
+        <dt>
         <!-- {{company.title}} -->
         <a href='{{base_url}}'>{{company.title}}</a>
         </dd>
 
-        <dt>Location:</dt>
+        <dt><h3>Location</h3></dt>
         <dd>{{company.location}}</dd>
 
-        <dt>Press Contact</dt>
+        <dt><h3>Press Contact</h3></dt>
         <dd><a href="mailto:{{project.email}}">{{project.email}}</a></dd>
 
 <!--         <dt>Release date:</dt>
@@ -44,28 +44,26 @@ layout: default
         <dd><a href='http://{{platform.link}}'>{{platform.name}}</a></dd>
         {% endfor %} -->
 
-        <dt>Website:</dt>
+        <dt><h3>Website</h3></dt>
         <dd><a href='http://{{project.website}}'>{{project.website}}</a></dd>
 
-        <dt>Twitter:</dt>
+        <dt><h3>Twitter</h3></dt>
         <dd><a href='https://twitter.com/{{project.twitter}}'>@{{project.twitter}}</a></dd>
 
-        <dt>Address:</dt>
+        <dt><h3>Address</h3></dt>
         {% for address_line in company.address %}
           <dd>{{address_line}}</dd>
         {% endfor %}
         </dt>
 
         {% if project.prices %}
-        <dt>Regular Price:</dt>
+        <dt>Regular Price</dt>
         {% for price in project.prices %}
         <dd>{{price.currency}} {{price.value}}</dd>
         {% else %}
           -
         {% endfor %}
         {% endif %}
-
-
       </dl>
     </div>
 
@@ -267,8 +265,7 @@ layout: default
   </div> -->
 
   <div class='container'>
-    <div class='box'>
-
+    <div class='box credits'>
       <h2 id='credits'>Credits</h2>
       <dl>
       {% for credit in project.credits %}
@@ -285,7 +282,17 @@ layout: default
       {% for credit in project.collaborators %}
         {% if credit.url %}
           <dt><a href='{{credit.url}}'>{{credit.person}}</a></dt>
-        {% else if credit.role %}
+        {% else %}
+          <dt>{{credit.person}}</dt>
+        {% endif %}
+      {% endfor %}
+      </dl>
+      <h3>Gray Area</h3>
+      <dl>
+      {% for credit in project.collaborators-grayarea %}
+        {% if credit.url %}
+          <dt><a href='{{credit.url}}'>{{credit.person}}</a></dt>
+        {% else %}
           <dt>{{credit.person}}</dt>
         {% endif %}
       {% endfor %}
