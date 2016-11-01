@@ -175,12 +175,21 @@ layout: default
   </div>
   -->
 
-  {% if project.awards-old %}
+<!--   {% if project.awards %}
   <div class='box'>
-    <h2 id='awards'>Awards &amp; Recognition (www.seaquence.org)</h2>
+    <h2 id='awards'>Exhibition</h2>
     <ul>
-      <!-- promoter awards here -->
+      {% for award in project.awards %}
+      <li>'{{award.description}}' <cite>{{award.info}}</cite></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}   -->
 
+<!--   {% if project.awards-old %}
+  <div class='box'>
+    <h2 id='awards'>Awards &amp; Recognition for Seaquence.org</h2>
+    <ul>
       {% for award in project.awards-old %}
       <li>'{{award.description}}' <cite>{{award.info}}</cite></li>
       {% endfor %}
@@ -190,14 +199,14 @@ layout: default
 
   {% if project.press-old %}
   <div class='box'>
-    <h2 id='awards'>Press (www.seaquence.org)</h2>
+    <h2 id='awards'>Press for Seaquence.org</h2>
     <ul>
       {% for press in project.press-old %}
       <li><a href='{{press.link}}'>{{press.title}}</a> <cite>{{press.source}}</cite>, {{press.date}}</li>
       {% endfor %}
     </ul>
   </div>
-  {% endif %}
+  {% endif %} -->
 
   {% if project.quotes %}
   <div class='box'>
@@ -263,23 +272,21 @@ layout: default
       <h2 id='credits'>Credits</h2>
       <dl>
       {% for credit in project.credits %}
-        <dt>{{credit.person}}</dt>
         {% if credit.url %}
-          <dd><a href='{{credit.url}}'>{{credit.url}}</a></dd>
+          <dt><a href='{{credit.url}}'>{{credit.person}}</a></dt>
         {% else if credit.role %}
-          <dd>{{credit.role}}</dd>
+          <dt>{{credit.person}}</dt>
         {% endif %}
       {% endfor %}
       </dl>
 
-      <h2 id='thanks'>Seaquence Family</h2>
+      <h2 id='thanks'>Collaborators</h2>
       <dl>
-      {% for credit in project.family %}
-        <dt>{{credit.person}}</dt>
+      {% for credit in project.collaborators %}
         {% if credit.url %}
-          <dd><a href='{{credit.url}}'>{{credit.url}}</a></dd>
+          <dt><a href='{{credit.url}}'>{{credit.person}}</a></dt>
         {% else if credit.role %}
-          <dd>{{credit.role}}</dd>
+          <dt>{{credit.person}}</dt>
         {% endif %}
       {% endfor %}
       </dl>

@@ -3,7 +3,7 @@ layout: project
 
 title: "Seaquence"
 release: "Nov 15, 2016"
-website: "seaquence.org"
+website: "seaquence.org/app"
 email: "ping@seaquence.org"
 twitter: "seaquence"
 "press-can-request-copy": true # true | true
@@ -28,7 +28,7 @@ Seaquence is a unique arpeggio environment that allows you to create musical sou
 
   <br /><br/>
 
-  Under the hood, Seaquence features a pro-level synthesizer and timing engine. Even composers who are brand new to synthesis will be able to unlock their synesthetic creativity!
+  Seaquence features a pro-level synthesizer and timing engine controlled by a fun and direct interface. Even composers who are brand new to synthesis will be able to unlock their synesthetic creativity!
 
   <br /><br />
 
@@ -61,13 +61,13 @@ features:
 
 trailers:
   - name: Trailer
-    youtube: wm1h49rQNC8
+    youtube: fIbW42JQVBc
 
 awards:
-
-awards-old:
   - description: "Gray Area Festival"
     info: "Gray Area, San Francisco, March 31, 2016"
+
+awards-old:
   - description: "REBOOT:Music"
     info: "The Tech Museum, San Jose, 1 March, 2014"
   - description: "v.01 Exhibition"
@@ -104,10 +104,6 @@ press-old:
     source: "Rock Paper Shotgun"
     link: "https://www.rockpapershotgun.com/2014/01/31/under-the-sea-seaquence-lets-you-create-musical-fish/"
     date: "Janurary 31, 2014"
-  - title: "Seaquence: Music Simulator"
-    source: "Merlot II"
-    link: "https://www.merlot.org/merlot/viewMaterial.htm?id=797570"
-    date: "October 07, 2013"
   - title: "Seaquence"
     source: "Creative Applications"
     link: "http://www.creativeapplications.net/flash/seaquence-flash-sound/"
@@ -138,7 +134,7 @@ credits:
   - person: "Ryan Alexander"
     url: "http://onecm.com"
 
-family:
+collaborators:
   - person: "Daniel Massey"
     url: "http://daniel-massey.com"
   - person: "Gray Area"
