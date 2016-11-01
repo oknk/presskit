@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .root {
   max-width: 767px;
   margin: auto;
