@@ -26,7 +26,7 @@ description: "
   </p>
 
   <p>
-  Seaquence is a unique arpeggio environment that allows you to create musical soundscapes by layering collections of swimming creatures. A spatialized mix emerges as only the closest creatures can be heard, resulting in a organic sonic experience that changes as you play.
+  Seaquence is a unique arpeggio environment that allows you to create soundscapes by layering collections of musical creatures. A spatialized mix emerges as only the closest creatures can be heard, resulting in a organic sonic experience that changes as you play.
   </p>
 
   <p>
@@ -40,15 +40,15 @@ description: "
 
 history: "
   <p>
-  In the spring of 2009, Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in SF arts organization Gray Area’s first artist residency program. While in residence they created the original <a href=\"http://seaquence.org\">Seaquence.org</a> web app. Since it's launch, Seaquence.org has blossomed into a vibrant community that has shared well over 200,000 compositions and continues to be enjoyed by people around the world.
+  In the spring of 2009 Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in fledgling arts organization Gray Area’s first artist residency in the Tenderloin, the heart of San Francisco. While in residence they created the original <a href=\"http://seaquence.org\">Seaquence.org</a> web app with support from the Gray Area team. Seaquence.org became a seminal project in Gray Area history that blossomed into a vibrant community and has accumulated well over 200,000 compositions and counting. It continues to be enjoyed by people around the world.
   </p>
 
   <p>
-  Since then a lot has changed. Seaquence.org was originally written in Adobe Flash, which has slowly been phased out as an interactive platform on the web, and doesn't work at all on mobile devices.
+  Since then a lot has changed. Seaquence.org was originally written in Adobe Flash before the original iPad was released. Flash has slowly been phased out as an interactive platform on the web, and doesn't work at all on mobile devices.
   </p>
 
   <p>
-  In mid-2014 Ryan and Gabe decided that the best way to keep the Seaquence community alive was to do what they had been talking about for years, and bring the app to iPad. Over the next two and a half years, they built a new version of Seaquence from the ground up in a brand-new codebase and sound engine, introducing shiny new graphic and sound features, graduating Seaquence from a web-toy to a full-fledged creative experience.
+  In mid-2014 Ryan and Gabe decided that the best way to keep the Seaquence community alive was to do what they had been talking about for years — bring the app to iPad. Over the next two and a half years, they built a new version of Seaquence from the ground up with a brand-new codebase, introducing shiny new graphics and a high quality sound engine, graduating Seaquence from a Flash web-toy to a fully-featured creative experience.
   </p>
   "
 

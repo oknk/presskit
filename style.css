@@ -62,6 +62,10 @@ dt {
   margin: 0.4em 0 0 0;
 }
 
+dt dl {
+  margin-top: 0;
+}
+
 .credits dt {
   margin-left: 0.8em;
 }

@@ -286,8 +286,8 @@ layout: default
           <dt>{{credit.person}}</dt>
         {% endif %}
       {% endfor %}
-      </dl>
-      <h3>Gray Area</h3>
+      <dt>
+      <a href='http://grayarea.org'>Gray Area</a>
       <dl>
       {% for credit in project.collaborators-grayarea %}
         {% if credit.url %}
@@ -297,6 +297,10 @@ layout: default
         {% endif %}
       {% endfor %}
       </dl>
+      </dt>
+
+      </dl>
+
 
 
 <br /><br />
