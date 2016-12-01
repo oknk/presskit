@@ -4,14 +4,9 @@
   header, header img {
     width:100%;
   }
-
-  .factsheet {
-    float:left;
-    background:#f0f;
-  }
 }
 
-@media (max-width: 767px) {}
+@media ( max-width: 767px) {}
 
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -37,7 +32,7 @@ a {
 .container {}
 
 .container .container {
-  display: flex;
+  /*display: flex;*/
 }
 
 .container .container .box {
@@ -118,7 +113,7 @@ blockquote footer {
 }
 
 img {
-  max-width:600px;
+  max-width:100%;
 }
 
 .iframe-container {

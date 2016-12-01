@@ -4,3 +4,4 @@ collections:
   projects:
     output: true
     permalink: /:title
+baseurl: /app
