@@ -76,12 +76,6 @@ layout: default
         <p>{{project.description}}</p>
       </div>
 
-      {% if project.history %}
-      <div class='box'>
-        <h2 id='history'>History</h2>
-        <p>{{project.history}}</p>
-      </div>
-      {% endif %}
 
       <div class='box'>
         <h2>Features</h2>
@@ -92,6 +86,8 @@ layout: default
         </ul>
       </div>
 
+
+
       <div class='box'>
         <h2>Pro Features (In App Purchase)</h2>
         <ul class='feature-list'>
@@ -100,6 +96,14 @@ layout: default
         {% endfor %}
         </ul>
       </div>
+
+
+      {% if project.history %}
+      <div class='box'>
+        <h2 id='history'>History</h2>
+        <p>{{project.history}}</p>
+      </div>
+      {% endif %}
 
       {% if project.unique %}
       <div class='box'>
@@ -334,11 +338,19 @@ layout: default
       {% endfor %}
       </dl> -->
 
+    <div class='box'>
+    <dl>
+    <!-- &copy; {{site.data.presskit.title}} {{'now' | date: '%Y' }} -->
+    </dl>
+    </div>
+
     </div>
 
     <div class='box'>
       {% include contacts.html %}
     </div>
+
+
 
   </div>
 

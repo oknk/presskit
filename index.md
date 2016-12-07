@@ -178,12 +178,12 @@ collaborators-grayarea:
 logos:
   - name: "Gray Area"
     img: "logos/grayarea.svg"
-    # url: "http://grayarea.org"
+    url: "http://grayarea.org"
   - name: "Cinder"
     img: "logos/cinder.svg"
-    # url: "http://libcinder.org"
+    url: "http://libcinder.org"
   - name: "Pure Data"
     img: "logos/puredata.png"
-    # url: "http://puredata.info/"
+    url: "http://puredata.info/"
 
 ---
