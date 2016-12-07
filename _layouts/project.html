@@ -50,12 +50,6 @@ layout: default
         <dt><h3>Twitter</h3></dt>
         <dd><a href='https://twitter.com/{{project.twitter}}'>@{{project.twitter}}</a></dd>
 
-        <dt><h3>Address</h3></dt>
-        {% for address_line in company.address %}
-          <dd>{{address_line}}</dd>
-        {% endfor %}
-        </dt>
-
         {% if project.prices %}
         <dt>Regular Price</dt>
         {% for price in project.prices %}
@@ -89,7 +83,14 @@ layout: default
         </ul>
       </div>
 
-
+      <div class='box'>
+        <h2>Pro Features (In-App Purchase)</h2>
+        <ul class='feature-list'>
+        {% for feature in project.profeatures %}
+          <li>{{feature}}</li>
+        {% endfor %}
+        </ul>
+      </div>
 
       {% if project.unique %}
       <div class='box'>

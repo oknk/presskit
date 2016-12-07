@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@font-face {
+  font-family: 'SeaqFont';
+  src: url('SeaqRegular.otf');
+}
 
 @media only screen and (max-device-width: 480px) {
   header, header img {
@@ -14,11 +17,15 @@
 @media (max-width: 767px) {}
 
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 0.9em;
   line-height:1.6em;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'SeaqFont', Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -54,7 +61,6 @@ a {
 }
 
 h2, h3 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;*/
   margin-top: 1.5em;
 }
 

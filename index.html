@@ -20,9 +20,9 @@ layout: default
       <dl>
         <dt><h3>Location</h3></dt>
         <dd>{{presskit.location}}</dd>
-
+<!--
         <dt><h3>Founded</h3></dt>
-        <dd>{{presskit.founded}}</dd>
+        <dd>{{presskit.founded}}</dd> -->
 
         <dt><h3>Website</h3></dt>
         <dd><a href='http://{{presskit.website}}'>{{presskit.website}}</a></dd>
@@ -30,10 +30,10 @@ layout: default
         <dt><h3>Press/Business Contact</h3></dt>
         <dd><a href='mailto:{{presskit.email}}'>{{presskit.email}}</a></dd>
 
-        <dt><h3>Social</h3></dt>
+<!--         <dt><h3>Social</h3></dt>
         <dd>Twitter <a href='http://twitter.com/{{presskit.social.twitter}}'>@{{presskit.social.twitter}}</a></dd>
         <dd>Instagram <a href='http://instagram.com/{{presskit.social.instagram}}'>@{{presskit.social.instagram}}</a></dd>
-
+ -->
         <dt><h3>Projects</h3></dt>
         {% for project in site.projects %}
           <dd><a href='{{project.url | remove_first:'/' | remove: '.html' | prepend: base_url}}'>{{project.title}}</a></dd>
@@ -41,11 +41,11 @@ layout: default
           <dd>-</dd>
         {% endfor %}
 
-        <dt><h3>Address</h3></dt>
+<!--         <dt><h3>Address</h3></dt>
         {% for address_line in presskit.address %}
           <dd>{{address_line}}</dd>
         {% endfor %}
-        </dt>
+        </dt> -->
       </dl>
     </div>
 
@@ -120,7 +120,7 @@ layout: default
 
   <div class='box'>
     <h2 id='logo'>Logo &amp; Icon</h2>
-    <a href='images/logo.zip' class='notice'>download all logo files</a>
+    <a href='images/okaynokay-logos.zip' class='notice'>download all logo files</a>
     <div>
       <a href='images/oknk-logo-light.png'>
         <img src='images/oknk-logo-light.png' alt='logo-light' />
