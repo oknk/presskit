@@ -26,7 +26,7 @@ description: "
   </p>
 
   <p>
-  Seaquence is a unique arpeggio environment that allows you to create soundscapes by layering collections of musical creatures. A spatialized mix emerges as only the closest creatures can be heard, resulting in a organic sonic experience that changes as you play.
+  Seaquence is a unique musical sequencer environment that allows you to create soundscapes by layering collections of musical creatures. A spatialized mix emerges as only the closest creatures can be heard, resulting in a organic sonic experience that changes as you play. Visually immersive and sonically dynamic, Seaquence is a completely unique audiovisual composition environment. You've never seen (or heard) anything like it!
   </p>
 
   <p>
@@ -36,11 +36,15 @@ description: "
   <p>
   Share your creations with friends and browse what other people have made to get inspired!
   </p>
+
+  <p>
+  Seaquence is created by Okaynokay (Ryan Alexander + Gabriel Dunne), based on an original project created by Ryan Alexander, Gabriel Dunne, Daniel Massey, and Gray Area Foundation for the Arts. See the original project at <a href='http://seaquence.org'>seaquence.org</a>
+  </p>
   "
 
 history: "
   <p>
-  In the spring of 2009 Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in fledgling arts organization Gray Area’s first artist residency in the Tenderloin, the heart of San Francisco. While in residence they created the original <a href=\"http://seaquence.org\">Seaquence.org</a> web app with support from the Gray Area team. Seaquence.org became a seminal project in Gray Area history that blossomed into a vibrant community and has accumulated well over 200,000 compositions and counting. It continues to be enjoyed by people around the world.
+  In the spring of 2009 Ryan Alexander, Gabriel Dunne, and Daniel Massey participated in fledgling arts organization Gray Area’s first artist residency in the Tenderloin, the heart of San Francisco. While in residence they created the original <a href=\"http://seaquence.org\">seaquence.org</a> web app with support from the Gray Area team. Seaquence.org became a seminal project in Gray Area history that blossomed into a vibrant community and has accumulated well over 200,000 compositions and counting. It continues to be enjoyed by people around the world.
   </p>
 
   <p>
@@ -59,17 +63,26 @@ design: "The interface is bright, colorful and mostly devoid of text, encouragin
   The musical composition design approach is one that encourages exploration and education. By tying visual interface components to their synthesis counterparts, a composer who is unfamiliar with synthesizer or musical concepts are encouraged to experiment and create sounds freely. Creatures appear to swim under a microscope, both representing an exploration of the unseen and unknown, and a discovery of new sounds and tones. The online browser encourages users to browse what other people have made, and share their own creations. If a user starts a composition from an existing session, the family tree is maintained so you can always trace back up the tree to the parent session."
 
 features:
-  - "Fully featured polyphonic synthesis engine"
+  - "Fully featured polyphonic synthesis module with support of up to 5 note polyphony per voice"
   - "Dynamic spatial mixer and stereo-panning engine"
-  - "Unique creature physics and swim behaviors &mdash; swim patterns are based on creature voice parameters"
+  - "A true multitouch experience, up to 11 simultaneous touch points supported."
+  - "Unique creature physics and swim behaviors — swim patterns are based on creature voice parameters"
   - "Up to 10 creatures can be heard simultaneously"
-  - "Precision sample-based clock"
-  - "Professional-level audio features and effects including state-variable filter, delay, and more"
-  - "Intuitive visual editing features, including 16x16 sequencer matrix with scale, octave, transpose, swing, envelopes, and more"
-  - "5 creature types included, each featuring a different oscillator waveform"
-  - "Social sharing features &mdash; Share your creations with your friends!"
-  - "Parent Links are maintained &mdash; trace back the history of a composition"
-  - "MIDI I/O &mdash; Seaquence can talk to external gear!"
+  - "Precision, sample-based clock"
+  - "Warm compressor on the master channel."
+  - "Intuitive visual editing features, including 16x16 sequencer matrix with scale, octave, envelopes, and more."
+  - "5 creature/waveform types included, each featuring a different oscillator shape"
+  - "Social sharing features — Share your creations with your friends!"
+  - "Parent Links are maintained — Trace back the history of a composition"
+
+profeatures:
+  - "State-variable filter with hi-pass, band-pass, lo-pass, and notch modes, resonance Q, and attack envelope"
+  - "Swing/Shuffle"
+  - "Portamento/Glide"
+  - "More voice modes in addition to Polyphonic: Monophonic with Sub-Oscillator, and Unison"
+  - "Global transpose"
+  - "Lush delay effect module with feedback and FX-Send"
+  - "MIDI I/O — Seaquence can send notes to external gear, and supports MIDI clock-sync!"
 
 trailers:
   - name: Trailer

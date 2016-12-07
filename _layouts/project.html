@@ -92,7 +92,14 @@ layout: default
         </ul>
       </div>
 
-
+      <div class='box'>
+        <h2>Pro Features (In App Purchase)</h2>
+        <ul class='feature-list'>
+        {% for feature in project.profeatures %}
+          <li>{{feature}}</li>
+        {% endfor %}
+        </ul>
+      </div>
 
       {% if project.unique %}
       <div class='box'>
