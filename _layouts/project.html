@@ -268,7 +268,10 @@ layout: default
 
   <div class='container'>
     <div class='box credits'>
+
       <h2 id='credits'>Credits</h2>
+      <dt>
+      <a href='http://okaynokay.xyz'>Okaynokay</a>
       <dl>
       {% for credit in project.credits %}
         {% if credit.url %}
@@ -278,6 +281,8 @@ layout: default
         {% endif %}
       {% endfor %}
       </dl>
+      </dt>
+
 
       <h2 id='thanks'>Collaborators</h2>
       <dl>

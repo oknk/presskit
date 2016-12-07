@@ -154,10 +154,11 @@ press-old:
 
 
 credits:
-  - person: "Gabriel Dunne"
-    url: "http://gabrieldunne.com"
   - person: "Ryan Alexander"
     url: "http://onecm.com"
+  - person: "Gabriel Dunne"
+    url: "http://gabrieldunne.com"
+
 
 collaborators:
   - person: "Daniel Massey"
@@ -166,23 +167,23 @@ collaborators:
 collaborators-grayarea:
   - person: "Josette Melchor"
   - person: "Joe Brilliant"
+  - person: "Tana Sprague"
   - person: "Susan Langan"
   - person: "Chris Delbuck"
   - person: "Julie Delbuck"
   - person: "Thomas Bates"
-  - person: "Tana Sprague"
   - person: "Janetti Chon"
   - person: "Melissa Wilson"
 
 logos:
   - name: "Gray Area"
     img: "logos/grayarea.svg"
-    url: "http://grayarea.org"
+    # url: "http://grayarea.org"
   - name: "Cinder"
     img: "logos/cinder.svg"
-    url: "http://libcinder.org"
+    # url: "http://libcinder.org"
   - name: "Pure Data"
     img: "logos/puredata.png"
-    url: "http://puredata.info/"
+    # url: "http://puredata.info/"
 
 ---
