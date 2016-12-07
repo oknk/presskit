@@ -1,7 +1,7 @@
 ---
 layout: project
 
-title: "Seaquence"
+title: "Seaquence App"
 release: "Nov 15, 2016"
 website: "seaquence.org/app"
 email: "ping@seaquence.org"
@@ -154,10 +154,11 @@ press-old:
 
 
 credits:
-  - person: "Gabriel Dunne"
-    url: "http://gabrieldunne.com"
   - person: "Ryan Alexander"
     url: "http://onecm.com"
+  - person: "Gabriel Dunne"
+    url: "http://gabrieldunne.com"
+
 
 collaborators:
   - person: "Daniel Massey"
@@ -166,11 +167,11 @@ collaborators:
 collaborators-grayarea:
   - person: "Josette Melchor"
   - person: "Joe Brilliant"
+  - person: "Tana Sprague"
   - person: "Susan Langan"
   - person: "Chris Delbuck"
   - person: "Julie Delbuck"
   - person: "Thomas Bates"
-  - person: "Tana Sprague"
   - person: "Janetti Chon"
   - person: "Melissa Wilson"
 
