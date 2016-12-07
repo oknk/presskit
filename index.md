@@ -1,7 +1,7 @@
 ---
 layout: project
 
-title: "Seaquence"
+title: "Seaquence App"
 release: "Nov 15, 2016"
 website: "seaquence.org/app"
 email: "ping@seaquence.org"
