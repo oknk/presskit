@@ -1,10 +1,10 @@
 body {
-  background: #101010;
-  color: #888;
+  background: #191919;
+  color: #ddd;
 }
 
 a {
-  color: #ddd;
+  color: #fff;
 }
 a:active {
   outline: none

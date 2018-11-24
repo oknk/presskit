@@ -1,9 +1,9 @@
 title: "Okaynokay"
 founded: "2015"
-location: "SF Bay Area, CA USA"
-website: "okaynokay.xyz"
-email: "oknkstudio@gmail.com"
-press-email: "press@okaynokay.xyz"
+location: "San Francisco, CA<br/>USA"
+website: "oknk.studio"
+email: "hi@oknk.studio"
+press-email: "press@oknk.studio"
 address:
   - "Okaynokay"
   - "1940 Union St., #32"
@@ -13,7 +13,7 @@ social:
   twitter: "oknkstudio"
   instagram: "oknkstudio"
 
-description: "Okaynokay is Ryan Alexander &amp; Gabriel Dunne"
+description: "Okaynokay (OKNK) is a San Francisco Bay Area based creative studio focusing on audio visual software experiences. The studio was founded by Ryan Alexander and Gabriel Dunne in 2015 and has since produced high-end custom software, art, installations, graphics, and experience designs including their debut project Seaquence, a playful synthesizer for iOS."
 
 history:
   - header: "Early history"
